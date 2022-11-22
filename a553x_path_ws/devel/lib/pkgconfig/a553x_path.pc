@@ -1,0 +1,8 @@
+prefix=/home/mallab/a553x_path_ws/devel
+
+Name: a553x_path
+Description: Description of a553x_path
+Version: 0.0.0
+Cflags: -I/home/mallab/a553x_path_ws/src/a553x_path/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs nav_msgs geometry_msgs std_msgs

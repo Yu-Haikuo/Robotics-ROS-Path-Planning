@@ -1,0 +1,16 @@
+# EE3305/ME3243
+# Name: Yu Haikuo
+# Matric Number: A0194553X
+
+dt: 0.1
+goal_x: 3.5
+goal_y: 4.5
+
+
+Kp_x: 0.5
+Ki_x: 0
+Kd_x: 0
+
+Kp_a: 1.5
+Ki_a: 1
+Kd_a: 0
