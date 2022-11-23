@@ -22,3 +22,18 @@ The path-planning program uses `BFS` algorithm to find all available paths on a 
 
 In this process, it will access the first element in the queue, and then delete the first element from the queue. Then if the goal is found, the loop will end. If not, then search the neighbours and queue them if the cost is fewer.
 
+# Result
+
+<p align="center">
+  <img height="450" width="800" src="https://github.com/Yu-Haikuo/Robotics-ROS-Path-Planning/blob/main/Figures/ezgif.com-gif-maker.gif">
+</p>
+
+***
+
+![Without%20Enhancement.jpg](https://github.com/Yu-Haikuo/Robotics-ROS-Path-Planning/blob/main/Figures/Without%20Enhancement.jpg)
+
+Before the enhancement, the `Turtlebot3` will go directly to the north direction since the start, and then make a U turn at cell `(5, 1)` as shown in the figure above, and the total time taken is 1min 07s.
+
+![With%20Enhancement.jpg](https://github.com/Yu-Haikuo/Robotics-ROS-Path-Planning/blob/main/Figures/With%20Enhancement.jpg)
+
+After the enhancement, the `Turtlebot3` will not go to wrong direction and a U turn is no longer needed. Instead, it will proceed to the correct west direction directly as shown in the figure above, and the total time taken is reduced by to `54s`, which is improved by `19.4%` compared to previous one without the enhancement.
